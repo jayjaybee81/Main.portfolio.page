@@ -1,0 +1,118 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #000000; font-size: 2rem; line-height: 1.5; margin: 200px;
+}
+
+img { 
+    max-width: 100%; max-height: 100vh; width: auto; height: auto; display: block; margin: auto; object-fit: contain; /* ensures it fits without distortion */ }
+
+header img { margin: 0; width: 200px;          /* Adjust as needed — try 200px, 250px, etc. / height: auto; align-self: center; / Optional: vertical alignment */ }
+
+a { 
+    color:inherit; 
+
+}
+
+h1 { 
+    color: #4676a9; text-align: center; font-size: clamp(2.5rem, 8vw, 11rem); line-height: 1.1; margin: 0 auto 2rem auto; /* Adds bottom spacing */ padding: 0 1rem; word-break: break-word;
+}
+
+h2 { 
+    color: rgb(19, 209, 190); font-size: 2rem; inline-size: 320px; 
+}
+
+li { 
+    margin-block: 15px; 
+}
+
+a { 
+    color:#0b4a5a; 
+}
+
+a:visited { 
+    color: hsl(177, 74%, 44%); 
+}
+a:hover { 
+    color:rgb(170, 35, 57);
+}
+
+a:focus-visible{ 
+    color:rgb(192, 47, 74); 
+}
+
+a:active{ 
+    color:rgb(130, 120, 120); 
+}
+
+section { 
+    margin-block: 100px; 
+}
+
+header 
+{ display: flex; justify-content: space-between; align-items: center;     /* New: vertically center logo and nav / gap: 20px;               / Already present / padding-inline: 1rem;    / New: adds horizontal spacing inside the header */ 
+}
+
+.primary-navigation ul{ 
+    display: flex; gap: 10px; list-style: none; margin: 0; padding: 0; 
+}
+
+.primary-navigation a { 
+    color:#000000; font-weight: bold; text-decoration: none; 
+}
+
+.primary-navigation a:hover, .primary-navigation a:focus-visible { 
+    color:#2bc4ea; 
+}
+
+.wrapper{ 
+    inline-size: 1000px; margin-inline: auto; 
+}
+
+
+.two-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.full-width-image { 
+    grid-column: 1 / -1; display: flex; justify-content: center; margin-top: 10px; 
+}
+
+.full-width-image img { 
+    max-width: 100%; height: auto; object-fit: contain; 
+}
+
+.Teal-text { 
+    color: teal; 
+}
+
+.Teal-background { 
+    border: #0b4a5a solid 10px; background-color: #087a98; padding: 20px; color:white;
+}
+
+.Teal-background strong { 
+    color:rgb(74, 190, 83);
+}
+
+.climber-bg { 
+    background-image: url(simple-steps.jpg); color:#ffffff; padding:24px; border: #0b4a5a solid 10px; background-repeat: no-repeat; background-position: center; background-size: cover;
+}
+
+footer {
+text-align: center; }
